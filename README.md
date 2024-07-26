@@ -30,9 +30,6 @@ Feel free to browse through the files to find notes on specific topics. Each fil
 
 If you have any suggestions for improvements or additional topics to include, feel free to contribute! You can submit a pull request or open an issue to discuss changes.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
