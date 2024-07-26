@@ -1,8 +1,3 @@
-# Linux
-
-## Overview
-This is the sample text for overview.
-
 # Bash Command Reference
 
 This document provides a list of common Bash commands along with brief descriptions. Bash (Bourne Again Shell) is a popular shell used for command-line interfacing and scripting.
