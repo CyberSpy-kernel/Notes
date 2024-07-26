@@ -2,24 +2,25 @@
 
 Welcome to my repository of learning notes! This repository contains a collection of Markdown (.md) files with notes and information gathered while learning various topics. The purpose of this repository is to provide a structured and easily accessible record of the knowledge I've acquired.
 
+***
 ## Repository Structure
 
 The repository is organized into different sections, each corresponding to a specific topic or area of study. Here’s an overview of the structure:
 
 
-/[docs](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
-├── [Linux](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
-├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)
-└── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
+/[docs](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
+├── [Linux](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
+├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)<br />
+└── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
 
-
+---
 ## Files
 
 - **`Bash_Commands.md`**: A comprehensive list of common Bash commands with descriptions and examples.
 - **`Common_Network_Ports.md`**: A table of commonly used network ports and their associated services.
 - **`Echo_Command.md`**: Detailed information about the `echo` command, including options and examples.
 - **`...`**: Other notes and documentation on various topics.
-
+===
 ## Usage
 
 Feel free to browse through the files to find notes on specific topics. Each file is designed to be a standalone document, providing clear and concise information. You can use these notes as a reference or for review purposes.
