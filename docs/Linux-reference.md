@@ -22,9 +22,9 @@
 
 | Command  | Description |
 |-----------|----------------------|
-| [cd](http://example.com) | Example website for demo. |
-| [ls](http://openai.com)       | Research in AI and machine learning. |
-| [whereis](http://github.com)       | Platform for version control and collaboration. |
+| [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md) | Example website for demo. |
+| [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md)       | Research in AI and machine learning. |
+| [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md)| Platform for version control and collaboration. |
 
 
 
