@@ -275,3 +275,5 @@ This document provides a list of common Bash commands along with brief descripti
 For more detailed information on each command, consult the manual pages (`man [command]`).
 
 
+# install more tools via apt
+To install more tools via apt modify file '/etc/apt/sources.list' as per you need.
