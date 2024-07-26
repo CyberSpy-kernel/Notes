@@ -22,42 +22,42 @@
 
 This document provides a list of common Bash commands along with descriptions and links to more detailed documentation.
 
-| Command      | Description                                               | Link                                                                 |
-|--------------|-----------------------------------------------------------|----------------------------------------------------------------------|
-| [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cd.md) | Change the current directory to `[directory]` | [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cd.md) |
-| [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ls.md) | List directory contents | [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ls.md) |
-| [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/whereis.md) | Search files and folders | [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/whereis.md) |
-| [pwd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/pwd.md) | Print the current working directory | [pwd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/pwd.md) |
-| [mkdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mkdir.md) | Create a new directory | [mkdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mkdir.md) |
-| [rmdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rmdir.md) | Remove empty directories | [rmdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rmdir.md) |
-| [rm](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rm.md) | Remove files or directories | [rm](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rm.md) |
-| [cp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cp.md) | Copy files or directories | [cp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cp.md) |
-| [mv](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mv.md) | Move or rename files or directories | [mv](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mv.md) |
-| [touch](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/touch.md) | Change file timestamps or create empty files | [touch](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/touch.md) |
-| [cat](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cat.md) | Concatenate and display file contents | [cat](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cat.md) |
-| [head](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/head.md) | Display the first few lines of a file | [head](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/head.md) |
-| [tail](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tail.md) | Display the last few lines of a file | [tail](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tail.md) |
-| [grep](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/grep.md) | Search text using patterns | [grep](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/grep.md) |
-| [find](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/find.md) | Search for files in a directory hierarchy | [find](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/find.md) |
-| [man](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/man.md) | Display the manual for a command | [man](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/man.md) |
-| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chmod.md) | Change file permissions | [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chmod.md) |
-| [chown](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chown.md) | Change file owner and group | [chown](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chown.md) |
-| [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ps.md) | Report process status | [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ps.md) |
-| [kill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/kill.md) | Send a signal to a process | [kill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/kill.md) |
-| [top](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/top.md) | Display Linux tasks | [top](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/top.md) |
-| [df](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/df.md) | Report file system disk space usage | [df](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/df.md) |
-| [du](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/du.md) | Estimate file space usage | [du](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/du.md) |
-| [echo](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/echo.md) | Display a line of text | [echo](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/echo.md) |
-| [history](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/history.md) | Display the command history | [history](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/history.md) |
-| [ssh](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ssh.md) | OpenSSH SSH client (remote login program) | [ssh](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ssh.md) |
-| [scp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/scp.md) | Secure copy (remote file copy program) | [scp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/scp.md) |
-| [wget](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/wget.md) | Non-interactive network downloader | [wget](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/wget.md) |
-| [curl](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/curl.md) | Transfer data from or to a server | [curl](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/curl.md) |
-| [tar](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tar.md) | Archive files | [tar](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tar.md) |
-| [gzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gzip.md) | Compress files | [gzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gzip.md) |
-| [gunzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gunzip.md) | Decompress files | [gunzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gunzip.md) |
-| [bzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bzip2.md) | Compress files with bzip2 | [bzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bzip2.md) |
-| [bunzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bunzip2.md) | Decompress files with bzip2 | [bunzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bunzip2.md) |
+| Command      | Description                                               | 
+|--------------|-----------------------------------------------------------|
+| [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cd.md) | Change the current directory to `[directory]` | 
+| [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ls.md) | List directory contents |
+| [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/whereis.md) | Search files and folders | 
+| [pwd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/pwd.md) | Print the current working directory |
+| [mkdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mkdir.md) | Create a new directory |
+| [rmdir](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rmdir.md) | Remove empty directories |
+| [rm](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/rm.md) | Remove files or directories |
+| [cp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cp.md) | Copy files or directories |
+| [mv](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/mv.md) | Move or rename files or directories |
+| [touch](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/touch.md) | Change file timestamps or create empty files |
+| [cat](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cat.md) | Concatenate and display file contents |
+| [head](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/head.md) | Display the first few lines of a file |
+| [tail](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tail.md) | Display the last few lines of a file |
+| [grep](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/grep.md) | Search text using patterns |
+| [find](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/find.md) | Search for files in a directory hierarchy |
+| [man](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/man.md) | Display the manual for a command |
+| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chmod.md) | Change file permissions |
+| [chown](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chown.md) | Change file owner and group |
+| [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ps.md) | Report process status |
+| [kill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/kill.md) | Send a signal to a process |
+| [top](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/top.md) | Display Linux tasks |
+| [df](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/df.md) | Report file system disk space usage |
+| [du](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/du.md) | Estimate file space usage |
+| [echo](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/echo.md) | Display a line of text |
+| [history](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/history.md) | Display the command history |
+| [ssh](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ssh.md) | OpenSSH SSH client (remote login program) |
+| [scp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/scp.md) | Secure copy (remote file copy program) |
+| [wget](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/wget.md) | Non-interactive network downloader |
+| [curl](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/curl.md) | Transfer data from or to a server |
+| [tar](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/tar.md) | Archive files |
+| [gzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gzip.md) | Compress files |
+| [gunzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/gunzip.md) | Decompress files |
+| [bzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bzip2.md) | Compress files with bzip2 |
+| [bunzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/bunzip2.md) | Decompress files with bzip2 |
 
 
 This document provides a list of common Bash commands along with brief descriptions. Bash (Bourne Again Shell) is a popular shell used for command-line interfacing and scripting.
