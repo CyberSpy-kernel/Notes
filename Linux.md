@@ -3,7 +3,146 @@
 ## Overview
 This is the sample text for overview.
 
-## Fiel System
+# Bash Command Reference
+
+This document provides a list of common Bash commands along with brief descriptions. Bash (Bourne Again Shell) is a popular shell used for command-line interfacing and scripting.
+
+## File and Directory Operations
+
+- `cd [directory]`
+  - Change the current directory to `[directory]`.
+- `ls [options] [directory]`
+  - List directory contents.
+- `pwd`
+  - Print the current working directory.
+- `mkdir [directory]`
+  - Create a new directory named `[directory]`.
+- `rmdir [directory]`
+  - Remove an empty directory `[directory]`.
+- `rm [options] [file]`
+  - Remove files or directories.
+- `cp [source] [destination]`
+  - Copy files or directories from `[source]` to `[destination]`.
+- `mv [source] [destination]`
+  - Move or rename files or directories from `[source]` to `[destination]`.
+- `find [path] [options] [expression]`
+  - Search for files and directories.
+
+## File Viewing and Editing
+
+- `cat [file]`
+  - Concatenate and display the contents of `[file]`.
+- `more [file]`
+  - View the contents of `[file]` one screen at a time.
+- `less [file]`
+  - View the contents of `[file]` with backward and forward navigation.
+- `head [file]`
+  - Display the first few lines of `[file]`.
+- `tail [file]`
+  - Display the last few lines of `[file]`.
+- `nano [file]`
+  - Open `[file]` in the Nano text editor.
+- `vim [file]`
+  - Open `[file]` in the Vim text editor.
+
+## File Permissions and Ownership
+
+- `chmod [options] [permissions] [file]`
+  - Change file mode (permissions) of `[file]`.
+- `chown [options] [owner][:group] [file]`
+  - Change file owner and/or group of `[file]`.
+- `chgrp [group] [file]`
+  - Change the group ownership of `[file]`.
+
+## Process Management
+
+- `ps [options]`
+  - Display information about running processes.
+- `top`
+  - Display real-time system information and running processes.
+- `kill [pid]`
+  - Send a signal to a process with process ID `[pid]`.
+- `pkill [name]`
+  - Kill processes by name.
+- `bg`
+  - Resume a suspended job in the background.
+- `fg [job]`
+  - Bring a background job to the foreground.
+- `jobs`
+  - List all jobs in the current session.
+
+## System Information
+
+- `uname [options]`
+  - Print system information.
+- `df [options]`
+  - Display disk space usage.
+- `du [options]`
+  - Display disk usage of files and directories.
+- `free [options]`
+  - Display memory usage.
+- `uptime`
+  - Show how long the system has been running.
+
+## Networking
+
+- `ping [host]`
+  - Send ICMP ECHO_REQUEST packets to `[host]`.
+- `curl [options] [url]`
+  - Transfer data from or to a server.
+- `wget [options] [url]`
+  - Download files from the web.
+- `ifconfig`
+  - Display or configure network interfaces.
+- `netstat [options]`
+  - Display network connections, routing tables, and interface statistics.
+- `ssh [user@host]`
+  - Open an SSH connection to `[host]` as `[user]`.
+
+## File Compression and Archiving
+
+- `tar [options] [archive] [files]`
+  - Archive files and directories.
+- `gzip [file]`
+  - Compress a file using gzip.
+- `gunzip [file.gz]`
+  - Decompress a gzip file.
+- `zip [options] [archive.zip] [files]`
+  - Create a zip archive.
+- `unzip [archive.zip]`
+  - Extract files from a zip archive.
+
+## Miscellaneous
+
+- `echo [string]`
+  - Display a line of text or a variable value.
+- `date [options]`
+  - Display or set the system date and time.
+- `history`
+  - Display the command history.
+- `alias [name='command']`
+  - Create an alias for a command.
+- `unalias [name]`
+  - Remove an alias.
+
+## Scripting and Variables
+
+- `export [variable=value]`
+  - Set environment variables.
+- `unset [variable]`
+  - Unset environment variables.
+- `source [file]`
+  - Execute commands from `[file]` in the current shell session.
+- `if [condition]; then commands; fi`
+  - Execute commands based on a condition.
+- `for variable in [list]; do commands; done`
+  - Loop through a list and execute commands.
+
+For more detailed information on each command, consult the manual pages (`man [command]`).
+
+
+
+## File System
 
 - / - root directory
     - /root - The super-user's home directory
