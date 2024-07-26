@@ -138,11 +138,3 @@ Perform the final password crack attempt:
 
 aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt
 ```
-By following these steps, you can efficiently use Kali Linux for network monitoring and penetration testing. Ensure you have the necessary permissions to perform these actions and always use them responsibly.
-
-
-
-```sql
-This combines all the instructions into a single `README.md` file without dividing any sections.
-```
-
