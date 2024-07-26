@@ -17,6 +17,51 @@
         - bin - more executables 
         - lib - More libraries
 
+# Linux Common Tools Reference
+
+This document provides a list of commonly used tools in Linux along with descriptions.
+
+| Tool        | Description                                               |
+|-------------|-----------------------------------------------------------|
+| [grep](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/grep.md)      | Search text using patterns                              |
+| [sed](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/sed.md)       | Stream editor for filtering and transforming text       |
+| [awk](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/awk.md)       | Pattern scanning and processing language                |
+| [find](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/find.md)      | Search for files in a directory hierarchy                |
+| [xargs](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/xargs.md)     | Build and execute command lines from standard input     |
+| [top](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/top.md)       | Display Linux tasks                                     |
+| [htop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/htop.md)      | Interactive process viewer                              |
+| [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/ps.md)        | Report process status                                   |
+| [df](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/df.md)        | Report file system disk space usage                     |
+| [du](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/du.md)        | Estimate file space usage                               |
+| [nano](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/nano.md)      | Simple text editor                                      |
+| [vim](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/vim.md)       | Advanced text editor                                    |
+| [emacs](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/emacs.md)     | Extensible, customizable text editor                    |
+| [wget](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/wget.md)      | Non-interactive network downloader                      |
+| [curl](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/curl.md)      | Transfer data from or to a server                       |
+| [tar](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/tar.md)       | Archive files                                           |
+| [gzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/gzip.md)      | Compress files                                          |
+| [gunzip](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/gunzip.md)    | Decompress files                                        |
+| [bzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/bzip2.md)     | Compress files with bzip2                               |
+| [bunzip2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/bunzip2.md)   | Decompress files with bzip2                             |
+| [ssh](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/ssh.md)       | OpenSSH SSH client (remote login program)               |
+| [scp](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/scp.md)       | Secure copy (remote file copy program)                  |
+| [rsync](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/rsync.md)     | Remote file and directory synchronization                |
+| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/chmod.md)     | Change file permissions                                 |
+| [chown](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/chown.md)     | Change file owner and group                             |
+| [kill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/kill.md)      | Send a signal to a process                              |
+| [pkill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/pkill.md)     | Send a signal to processes based on name                |
+| [man](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/man.md)       | Display the manual for a command                        |
+| [history](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/history.md)   | Display the command history                             |
+| [echo](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/echo.md)      | Display a line of text                                  |
+| [sort](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/sort.md)      | Sort lines of text files                                |
+| [uniq](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/uniq.md)      | Report or omit repeated lines                           |
+| [diff](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/diff.md)      | Compare files line by line                              |
+| [tee](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/tee.md)       | Read from standard input and write to standard output and files |
+| [basename](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/basename.md)  | Strip directory and suffix from filenames               |
+| [dirname](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/dirname.md)   | Strip the last component from the file name             |
+
+Feel free to explore each tool for more detailed usage and examples.
+
 
 ## Bash Command Reference
 
