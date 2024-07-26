@@ -276,4 +276,4 @@ For more detailed information on each command, consult the manual pages (`man [c
 
 
 # install more tools via apt
-To install more tools via apt modify file '/etc/apt/sources.list' as per you need.
+To install more tools via apt modify file `/etc/apt/sources.list` as per you need.
