@@ -70,6 +70,87 @@ This is the sample text for overview.
 
 By using these `ls` commands, you can effectively navigate and manage directories and files in Unix-like operating systems. Experiment with different combinations of options to find the output format that best suits your needs.
 
+
+
+# `cd` Command Reference
+
+The `cd` (change directory) command is used to navigate between directories in a command-line interface. Below is a comprehensive guide to the `cd` command and its various uses.
+
+## Basic Usage
+
+- `cd [directory]`
+  - Changes the current directory to `[directory]`.
+  - Example: `cd /home/user/documents`
+
+## Special Directory Symbols
+
+- `cd ~`
+  - Changes to the user's home directory.
+  - Equivalent to `cd /home/username` (on Unix-like systems) or `cd C:\Users\Username` (on Windows).
+
+- `cd ..`
+  - Moves up one level in the directory hierarchy.
+  - Example: If you are in `/home/user/documents`, `cd ..` will take you to `/home/user`.
+
+- `cd .`
+  - Refers to the current directory.
+  - Using `cd .` will not change the directory, but it can be used in scripts or commands to explicitly denote the current directory.
+
+- `cd -`
+  - Changes to the previous directory.
+  - Example: If you were in `/home/user/documents` and changed to `/var/log`, `cd -` will take you back to `/home/user/documents`.
+
+## Absolute and Relative Paths
+
+- **Absolute Path**
+  - A complete path from the root directory.
+  - Example: `cd /var/log`
+
+- **Relative Path**
+  - A path relative to the current directory.
+  - Example: If you are in `/home/user`, `cd documents` will take you to `/home/user/documents`.
+
+## Directory Navigation
+
+- `cd /`
+  - Changes to the root directory of the filesystem.
+
+- `cd [path/to/directory]`
+  - Changes to a specific directory using a relative or absolute path.
+  - Example: `cd /home/user/projects`
+
+## Combining Commands
+
+- `cd .. && cd ..`
+  - Moves up two levels in the directory hierarchy.
+
+- `cd /home/user/documents && ls`
+  - Changes to `/home/user/documents` and then lists its contents.
+
+## Notes
+
+- Commands and behaviors may vary slightly between Unix-like systems (Linux, macOS) and Windows.
+- Use `pwd` (print working directory) to verify the current directory.
+
+## Example Commands
+
+```bash
+# Change to home directory
+cd ~
+
+# Go up one directory level
+cd ..
+
+# Change to a specific directory
+cd /usr/local/bin
+
+# Go back to the previous directory
+cd -
+
+# Move up two directory levels and list contents
+cd ../.. && ls
+```
+
 ## Linux Commands
 ```
 # Get user-name
