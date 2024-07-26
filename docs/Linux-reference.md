@@ -62,6 +62,40 @@ This document provides a list of commonly used tools in Linux along with descrip
 
 Feel free to explore each tool for more detailed usage and examples.
 
+# Linux Advance Tools Reference
+
+This document provides a list of various Linux tools along with descriptions and information on whether a graphical user interface (GUI) is available for each tool.
+
+| Tool        | Description                                               | GUI Available?  |
+|-------------|-----------------------------------------------------------|-----------------|
+| [nmap](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/nmap.md)      | Network exploration and security auditing tool          | No              |
+| [wireshark](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/wireshark.md) | Network protocol analyzer                                | Yes             |
+| [netstat](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/netstat.md)    | Network statistics and connections viewer               | No              |
+| [traceroute](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/traceroute.md) | Trace the route packets take to a network host           | No              |
+| [tcpdump](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/tcpdump.md)    | Network packet analyzer                                  | No              |
+| [iftop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/iftop.md)      | Real-time network bandwidth monitoring                   | No              |
+| [nethogs](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/nethogs.md)    | Network bandwidth monitoring per process                 | No              |
+| [htop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/htop.md)       | Interactive process viewer                              | No              |
+| [glances](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/glances.md)    | Cross-platform system monitoring tool                    | No              |
+| [systemd-analyze](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/systemd-analyze.md) | Analyze and debug systemd boot-up performance            | No              |
+| [logwatch](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/logwatch.md)  | Log file analyzer and reporter                           | No              |
+| [fail2ban](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/fail2ban.md)  | Bans IPs with too many failed login attempts              | No              |
+| [ufw](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/ufw.md)        | Uncomplicated Firewall for managing iptables              | No              |
+| [iptables](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/iptables.md)  | Configure network packet filtering and NAT rules         | No              |
+| [iptables-save](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/iptables-save.md) | Save iptables rules to a file                            | No              |
+| [iptables-restore](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/iptables-restore.md) | Restore iptables rules from a file                       | No              |
+| [openvpn](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/openvpn.md)   | Open-source VPN software                                 | No              |
+| [nginx](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/nginx.md)     | High-performance web server and reverse proxy            | No              |
+| [apache2](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/apache2.md)   | Popular open-source web server                           | No              |
+| [docker](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/docker.md)    | Platform for developing, shipping, and running applications | Yes (Docker Desktop) |
+| [kubernetes](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/kubernetes.md) | Container orchestration system                           | Yes (Kubernetes Dashboard) |
+| [virtualbox](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/virtualbox.md) | Cross-platform virtualization tool                       | Yes             |
+| [vmware](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/vmware.md)     | Virtualization software suite                            | Yes             |
+| [gparted](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/gparted.md)   | Partition editor GUI                                     | Yes             |
+| [synaptic](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/synaptic.md)   | Graphical package manager for Debian-based distributions | Yes             |
+
+Feel free to explore each tool for more detailed usage and examples.
+
 
 ## Bash Command Reference
 
