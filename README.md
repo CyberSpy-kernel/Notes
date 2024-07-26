@@ -6,12 +6,15 @@ Welcome to my repository of learning notes! This repository contains a collectio
 
 The repository is organized into different sections, each corresponding to a specific topic or area of study. Here’s an overview of the structure:
 
-```
+
 /[docs](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
+
 ├── [Linux](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
+
 ├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)
+
 └── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
-```
+
 
 ## Files
 
