@@ -21,14 +21,11 @@
 ## Bash Command Reference
 
 | Command  | Description |
-|-----------|----------------------|
-| [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md) | Example website for demo. |
-| [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md)       | Research in AI and machine learning. |
-| [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-reference/Bash-command/whereis.md)| Platform for version control and collaboration. |
+|-----------|--------------------------------------------|
+| [cd](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/cd.md) | Change the current directory to `[directory]` |
+| [ls](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ls.md) | List directory contents |
+| [whereis](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/whereis.md) | Search files and folders |
 
-
-
-[whereis](https://github.com/Artist-dk/Notes/blob/master/docs/0001/0001.md)
 
 This document provides a list of common Bash commands along with brief descriptions. Bash (Bourne Again Shell) is a popular shell used for command-line interfacing and scripting.
 
