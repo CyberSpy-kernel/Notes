@@ -8,10 +8,8 @@ The repository is organized into different sections, each corresponding to a spe
 
 ```
 /docs
-├── Bash_Commands.md
-├── Common_Network_Ports.md
-├── Echo_Command.md
-├── ...
+├── Linux
+├── Computer Networking
 └── README.md
 ```
 
