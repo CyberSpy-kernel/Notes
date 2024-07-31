@@ -11,6 +11,7 @@ The repository is organized into different sections, each corresponding to a spe
 /[docs](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
 ├── [Linux](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
 ├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)<br />
+├── [Hacking](https://github.com/Artist-dk/Notes/blob/master/docs/hacking.md)<br />
 └── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
 
 ---
