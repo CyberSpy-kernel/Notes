@@ -1,4 +1,6 @@
 # Linux
+
+[uninstall applications](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/uninstall-apk.md)
 ## File System Reference
 
 - / - root directory
