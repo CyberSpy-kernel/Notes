@@ -1,5 +1,5 @@
-[![Home](https://img.shields.io/badge/Tutorial%201-blue?style=for-the-badge)](https://github.com/Artist-dk/Notes/)
-[![References](https://img.shields.io/badge/Tutorial%202-green?style=for-the-badge)]()
+[![Home](https://img.shields.io/badge/Home-blue?style=for-the-badge)](https://github.com/Artist-dk/Notes/)
+[![References](https://img.shields.io/badge/References-green?style=for-the-badge)]()
 
 ## Topics
 
