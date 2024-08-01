@@ -3,3 +3,4 @@
 
 # References
 [pkg management](https://github.com/Artist-dk/Notes/new/master/docs/linux/pkg-mgmt.md)
+[uninstall applications](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/uninstall-apk.md)
