@@ -7,6 +7,8 @@
 [![Topic B](https://img.shields.io/badge/Topic%20B-yellow?style=for-the-badge)](./topicB.md)
 
 # Linux
+
+[uninstall applications](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/uninstall-apk.md)
 ## File System Reference
 
 - / - root directory
