@@ -1,4 +1,13 @@
 [Home](https://github.com/Artist-dk/Notes/)
+## Tutorials
+
+[![Tutorial 1](https://img.shields.io/badge/Tutorial%201-blue?style=for-the-badge)](https://github.com/Artist-dk/Notes/)
+[![Tutorial 2](https://img.shields.io/badge/Tutorial%202-green?style=for-the-badge)](./tutorial2.md)
+
+## Topics
+
+[![Topic A](https://img.shields.io/badge/Topic%20A-red?style=for-the-badge)](./topicA.md)
+[![Topic B](https://img.shields.io/badge/Topic%20B-yellow?style=for-the-badge)](./topicB.md)
 
 # Linux
 ## File System Reference
