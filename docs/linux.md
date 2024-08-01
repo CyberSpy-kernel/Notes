@@ -1,9 +1,7 @@
 [![Home](https://img.shields.io/badge/Home-blue?style=for-the-badge)](https://github.com/Artist-dk/Notes/)
 [![References](https://img.shields.io/badge/References-green?style=for-the-badge)](https://github.com/Artist-dk/Notes/blob/master/docs/linux/references.md)
 
-# Linux
 
-[uninstall applications](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/uninstall-apk.md)
 ## File System Reference
 
 - / - root directory
