@@ -62,6 +62,7 @@ This document provides a list of commonly used tools in Linux along with descrip
 | [tee](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/tee.md)       | Read from standard input and write to standard output and files |
 | [basename](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/basename.md)  | Strip directory and suffix from filenames               |
 | [dirname](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/dirname.md)   | Strip the last component from the file name             |
+| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/chmod.md)   | Strip the last component from the file name             |
 
 Feel free to explore each tool for more detailed usage and examples.
 
