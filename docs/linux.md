@@ -122,7 +122,7 @@ This document provides a list of common Bash commands along with descriptions an
 | [grep](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/grep.md) | Search text using patterns |
 | [find](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/find.md) | Search for files in a directory hierarchy |
 | [man](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/man.md) | Display the manual for a command |
-| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chmod.md) | Change file permissions |
+| [chmod](https://github.com/Artist-dk/Notes/blob/master/docs/linux/command/chmod.md) | Change file permissions |
 | [chown](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/chown.md) | Change file owner and group |
 | [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/ps.md) | Report process status |
 | [kill](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/sh-command/kill.md) | Send a signal to a process |
