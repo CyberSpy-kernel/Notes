@@ -23,5 +23,3 @@ The repository is organized into different sections, each corresponding to a spe
 - [andriller](https://github.com/den4uk/andriller/tree/master)
 - [revshells](https://www.revshells.com/)<br />
     └── [References](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)
-```
-
