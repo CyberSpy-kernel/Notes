@@ -33,6 +33,7 @@ This document provides a list of commonly used tools in Linux along with descrip
 | [xargs](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/xargs.md)     | Build and execute command lines from standard input     |
 | [top](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/top.md)       | Display Linux tasks                                     |
 | [htop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/htop.md)      | Interactive process viewer                              |
+| [httrack](https://github.com/Artist-dk/Notes/blob/master/docs/linux/tools/httrack.md)      | HTTrack is a tool that allows you to download entire websites from the internet for offline browsing and analysis. |
 | [ps](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/ps.md)        | Report process status                                   |
 | [df](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/df.md)        | Report file system disk space usage                     |
 | [du](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/du.md)        | Estimate file space usage                               |
