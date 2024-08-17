@@ -79,7 +79,7 @@ This document provides a list of various Linux tools along with descriptions and
 | [iftop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/iftop.md)      | Real-time network bandwidth monitoring                   | No              |
 | [nethogs](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/nethogs.md)    | Network bandwidth monitoring per process                 | No              |
 | [htop](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/htop.md)       | Interactive process viewer                              | No              |
-| [httrack](https://github.com/Artist-dk/Notes/blob/master/docs/linux/tools/httrack.md)       | Interactive process viewer                              | Yes              |
+| [httrack](https://github.com/Artist-dk/Notes/blob/master/docs/linux/tools/httrack.md)       | Interactive process viewer                              | No             |
 | [glances](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/glances.md)    | Cross-platform system monitoring tool                    | No              |
 | [systemd-analyze](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/systemd-analyze.md) | Analyze and debug systemd boot-up performance            | No              |
 | [logwatch](https://github.com/Artist-dk/Notes/blob/master/docs/Linux-ref/tool/logwatch.md)  | Log file analyzer and reporter                           | No              |
