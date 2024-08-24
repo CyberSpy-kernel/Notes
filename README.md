@@ -9,6 +9,7 @@ The repository is organized into different sections, each corresponding to a spe
 
 
 /[docs](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
+├── [Git](https://github.com/Artist-dk/notes/blob/master/docs/git.md) <br />
 ├── [Computer Science](https://github.com/Artist-dk/Notes/blob/master/docs/computer-science.md) <br />
 ├── [Linux](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
 ├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)<br />
