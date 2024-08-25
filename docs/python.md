@@ -32,10 +32,3 @@
 | **9. Social Engineering Automation**    | - Automated Phishing<br>- Information Gathering                                                           | Automate social engineering attacks and gather information using Python for phishing and other techniques.                                              |
 | **10. Advanced Malware Analysis**      | - Dynamic Malware Analysis<br>- Advanced Persistence Mechanisms                                         | Use Python for dynamic malware analysis and understand advanced persistence techniques used by malware.                                                 |
 
-```
-    _    ____ _____ ___ ____ _____
-   / \  |  _ \_   _|_ _/ ___|_   _|
-  / _ \ | |_) || |  | |\___ \ | |
- / ___ \|  _ < | |  | | ___) || |
-/_/   \_\_| \_\|_| |___|____/ |_|
-```
