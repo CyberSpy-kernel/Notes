@@ -15,7 +15,8 @@ The repository is organized into different sections, each corresponding to a spe
 ├── [Computer Networking](https://github.com/Artist-dk/Notes/blob/master/docs/network.md)<br />
 ├── [Android](https://github.com/Artist-dk/Notes/blob/master/docs/android.md)<br />
 ├── [Hacking](https://github.com/Artist-dk/Notes/blob/master/docs/hacking.md)<br />
-└── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
+├── [Python](https://github.com/Artist-dk/Notes/blob/master/docs/linux.md)<br />
+└── [Cryptography](https://github.com/Artist-dk/Notes/blob/master/docs/cryptography.md)<br />
 
 ---
 ## IMP Links
