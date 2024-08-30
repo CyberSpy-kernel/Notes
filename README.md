@@ -20,7 +20,7 @@ The repository is organized into different sections, each corresponding to a spe
 
 ---
 ## IMP Links
-
+- [anyrun](https://any.run/)
 - [codebeautify](https://codebeautify.org/html-to-markdown)
 - [andriller](https://github.com/den4uk/andriller/tree/master)
 - [revshells](https://www.revshells.com/)<br />
