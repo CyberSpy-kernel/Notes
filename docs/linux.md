@@ -1,6 +1,7 @@
 [![Home](https://img.shields.io/badge/Home-blue?style=for-the-badge)](https://github.com/Artist-dk/Notes/)
 [![References](https://img.shields.io/badge/References-green?style=for-the-badge)](https://github.com/Artist-dk/Notes/blob/master/docs/linux/references.md)
 
+[Important contents to know about as a pro hacker.](https://github.com/Artist-dk/Notes/blob/master/docs/linux/ref/important-contents.md)
 
 ## File System Reference
 
