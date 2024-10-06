@@ -54,3 +54,4 @@ https://www.guru99.com/bug-bounty-programs.html
 https://www.elearnsecurity.com/course/web application penetration testing/
 https://portswigger.net/web-security
 https://www.giac.org/certification/web-application-penetration-tester-gwapt
+https://security.ine.com/
